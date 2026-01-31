@@ -114,22 +114,26 @@ Train and test files are merged and a large random subset is sampled for efficie
 
 ---
 
-## Repository Structure
 
-```text
-├── data/
-│   ├── sst/
-│   ├── imdb/
-│   └── amazon/
-├── notebooks/
-│   ├── sst_analysis.ipynb
-│   ├── imdb_analysis.ipynb
-│   └── amazon_analysis.ipynb
-├── models/
-│   ├── roberta/
-│   └── cnn/
-├── results/
-│   ├── confusion_matrices/
-│   └── plots/
-├── requirements.txt
-└── README.md
+
+## Key Takeaways
+
+- Lexicon-based models are fast but biased toward positive sentiment.
+
+- Classical ML models perform competitively with proper feature engineering.
+
+- Transformer-based models generalize well across domains.
+
+- CNNs benefit significantly from pretrained embeddings but require careful tuning.
+
+## Environment
+
+Python 3.9+
+
+NLTK, Scikit-learn, TensorFlow
+
+HuggingFace Transformers
+
+Matplotlib / Seaborn
+
+Kaggle Notebooks compatible
